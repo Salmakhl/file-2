@@ -30,10 +30,7 @@ Query OK, 1 row affected (0.10 sec)
 
 mysql> show create database;
 ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
-mysql> show bdtest;
-ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'bdtest' at line 1
-mysql> show database bdtest;
-ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'database bdtest' at line 1
+
 mysql> show databases;
 +--------------------+
 | Database           |
